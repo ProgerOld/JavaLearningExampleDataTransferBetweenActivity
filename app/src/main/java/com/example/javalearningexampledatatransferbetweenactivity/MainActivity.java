@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText emailIn; //Поле электронного адреса
     private Button button; //Поле кнопки
 
-    private String name;
-    private String address;
-    private String email;
+    private String name; //поле хранения имени
+    private String address; //поле хранения адреса
+    private String email; //поле хранения почты
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
