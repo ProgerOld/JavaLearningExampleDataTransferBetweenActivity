@@ -41,6 +41,7 @@ public class SecondActivity extends AppCompatActivity {
         button.setOnClickListener(listener); //Обработка нажатия кнопки
     }
 
+    //Слушиватель кнопки
     private View.OnClickListener listener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
